@@ -1,14 +1,6 @@
 
 def validate_date(date_str):
-    """
-    Validate the date format YYYY-MM-DD.
-
-    Args:
-    date_str (str): The date string to validate.
-
-    Returns:
-    bool: True if the date is valid, False otherwise.
-    """
+    
     try:
         year, month, day = date_str.split('-')
         if len(year) == 4 and len(month) == 2 and len(day) == 2:
